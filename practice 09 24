@@ -1,0 +1,44 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+
+#include <stdio.h>
+int main()
+{
+	int z = 0;
+	int arr[10] = { 0 };
+	int a = 10;
+	int sz = sizeof(arr) / sizeof(arr[1]);
+	printf("%d\n", sizeof(long long));//sizeof是为了计算 每一个类型的长度的
+	printf("%d\n", sizeof(a));
+	printf("%d\n", sizeof(arr));//数组里面有是个元素 一个占四个字节 十个就是四十个字节
+	printf("sz= %d\n", sz);
+	
+	/*int a = 0;
+	printf("%d\n", a);
+	printf("%d\n", !a);*/
+
+	//int a = 3;//011
+	//int b = 5;//101
+	//int c = a&b;//与运算 
+	//int d = a | b;//或运算
+	//int e = a^b;//异或运算 相同为零 不同为一
+	//printf("%d\n", c);
+	//printf("%d\n", d);
+	//printf("%d\n", e);
+	
+	/*int a = 1;
+	   int b = a << 3;
+	   int c = b << 8;
+	printf("%d\n", b);
+	printf("%d\n", c);*/
+	
+	/*int arr[10] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 0 };
+	int i = 0;
+	while (i < 10)
+	{
+		printf("%d\n", arr[i]);
+		i++;
+	}
+	*/
+	//printf("%d\n", arr[5]);
+	return 0;
+}
