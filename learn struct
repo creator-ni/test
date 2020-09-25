@@ -1,0 +1,31 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+
+#include <stdio.h>
+
+struct Book
+{
+	char name[20];
+	int price;
+};
+
+int main()
+{
+	struct Book b1 = {"c语言程序设计",886};
+	printf("书名: %s\n", b1.name);
+	printf("价格: %d元\n", b1.price);
+	b1.price = 999;
+	printf("修改后的价格: %d元\n", b1.price);
+	return 0;
+}
+
+
+
+//int main()
+//{
+//	int a = 19;
+//	int* p = &a;
+//	*p = 20;//指针必须要用 *p
+//	printf("%d\n", sizeof(*p));
+//	printf("%p\n", a);
+//	return 0;
+//}
