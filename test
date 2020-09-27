@@ -1,0 +1,46 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+int main()
+{ 
+	int i = 1;
+	while (i <= 10)
+	{
+		if (i == 5)
+			continue;
+		printf("i= %d\n", i);
+		i++;
+	}
+	return 0;
+}
+//int main()
+//{
+//	int i = 1;
+//	while (i <= 100);
+//	{
+//		printf("%d\n", i);
+//		i += 2;
+//	}
+//	return 0;
+//
+//}
+
+
+//	while (num <= 100);
+	//{
+	//	if (num % 2 == 1);
+	//	printf("num= %d\n", num);
+	//	num++;
+	//}
+	//{
+		//num++;
+		//if (num % 2 == 1);
+		//{
+	//	printf("num= %d\n", num);
+	//	printf("奇数%d\n");
+	  //  }
+		//else (num % 2 == 0);
+		//{
+			//printf("num= %d\n", num);
+			//printf("偶数%d\n");
+		//}
+	//}*/
